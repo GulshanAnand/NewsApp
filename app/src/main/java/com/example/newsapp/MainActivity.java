@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements NewsAdapter.ListI
         mProgressBar.setVisibility(View.VISIBLE);
         mRecyclerView.setVisibility(View.INVISIBLE);
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url = "https://gnews.io/api/v4/top-headlines?token=c44be657bda5524f75936ed32a82061e&lang=en&country=in&q="+query;
+        String url = "https://gnews.io/api/v4/top-headlines?token=c07dd78adb45e0626e3a8534c82be00e&lang=en&country=in&q="+query;
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override
