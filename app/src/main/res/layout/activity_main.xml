@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/white"
+    android:background="#FFFFFF"
     android:theme="@style/Theme.MaterialComponents.Light">
     <ProgressBar
         android:id="@+id/pb_loading"
@@ -23,12 +23,12 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginTop="14dp"
-            android:layout_marginLeft="14dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
             android:paddingLeft="8dp"
             android:background="@drawable/custom_input"
             android:drawableStart="@drawable/ic_search"
             android:drawablePadding="8dp"
-            android:layout_marginRight="14dp"
             android:singleLine="true"
             android:hint="Search News by category"
             android:layout_marginBottom="4dp"/>
